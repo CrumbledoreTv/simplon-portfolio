@@ -1,0 +1,234 @@
+/*************
+    FONTS
+*************/
+@font-face{
+  font-family: Good-night;
+  src:url(../FONTS/Good-night.ttf);
+}
+body{
+  margin: 0;
+  background-image: url(../IMG/patternMosa9.gif);
+}
+/*************
+    NavBar
+*************/
+header{
+  margin-top: 40px;
+  margin-right: 300px;
+  background-color: navy;
+  width: 100%;
+  height: 60px;
+}
+ul{
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+li{
+    margin-top: 20px;
+}
+li a{
+  margin-right: 50px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/*************
+  TRIANGLE TOP
+*************/
+.triT{
+position: absolute;
+  top: 0;
+  left: 0;
+  height: 0px;
+  width: 0px;
+  border-top: 500px solid white;
+  border-bottom: 400px solid transparent;
+  border-right: 500px solid transparent;
+}
+/*************
+  NOM TOPLEFT
+*************/
+.name{
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  color: navy;
+  font-size: 30px;
+}
+/*************
+    HOME
+*************/
+.swag{
+  position: absolute;
+  color: #d0e6e6;
+  font-size: 60px;
+  top: 150px;
+  left: 110px;
+}
+.swag span{
+  color: white;
+}
+#home{
+  width: 700px;
+  height: 250px;
+  margin-top: 100px;
+  margin-left: 400px;
+  margin-bottom: 100px;
+  padding: 70px;
+}
+#home p{
+  text-align: center;
+  font-family: Good-night;
+  font-size: 50px;
+  color: navy;
+}
+/*************
+  PORTFOLIO
+*************/
+#portfolio1{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+img{
+  width: 300px;
+  margin-bottom: 20px;
+  height: 200px;
+}
+#smiley{
+  width: 300px;
+  height: 200px;
+}
+h1{
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-family: Good-night;
+  background-color: navy;
+  color: white;
+  text-align: center;
+}
+.folio1{
+  width: 300px;
+}
+.folio1 .subtitle{
+  text-align: center;
+  background-color: navy;
+  color: white;
+  font-size: 20px;
+}
+/*************
+  ABOUT ME
+*************/
+#about{
+  height: 600px;
+}
+.blabla{
+  background-color: navy;
+  opacity: .8;
+  color: white;
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: center;
+  /*width: 100px;*/
+}
+#stuff{
+  display: flex;
+  justify-content: space-around;
+}
+/*************
+  COMPETENCES
+*************/
+.comp{
+  width: 70px;
+  color: white;
+  background-color: navy;
+  opacity: .8;
+  font-size: 14px;
+  text-align: center;
+}
+.barre{
+  width: 100px;
+  height: 20px;
+  border: 1px solid black;
+  background-color: white;
+}
+.progress1{
+  width: 80px;
+  height: 20px;
+  background-color: red;
+}
+.progress2{
+  width: 20px;
+  height: 20px;
+  background-color: red;
+}
+.progress3{
+  width: 10px;
+  height: 20px;
+  background-color: red;
+}
+#project{
+    width: 600px;
+    height: 190px;
+    margin-top: 50px;
+    margin-left: 350px;
+    text-align: center;
+    color: navy;
+    opacity: .9;
+}
+/*************
+  CONTACT
+*************/
+#formulaire{
+  text-align: center;
+  color: navy;
+  font-size: 20px;
+}
+textarea{
+  height: 100px;
+  width: 500px;
+  color: navy;
+  font-size: 16px;
+}
+input{
+  width: 600px;
+}
+form{
+  padding: 20px;
+}
+#bouton{
+  margin-bottom: 20px;
+  width: 100px;
+}
+/*************
+    FOOTER
+*************/
+footer{
+  width: 100%;
+  height: 60px;
+  background-color: navy;
+  position: relative;
+  margin-bottom: 40px;
+}
+footer *{
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 400px;
+  margin-left: 100px;
+}
+/*************
+  TRIANGLE BOT
+*************/
+.triB{
+    position: absolute;
+    right: -400px;
+    bottom: -40px;
+    height: 0px;
+    width: 0px;
+    border-top: 500px solid transparent;
+    border-left: 500px solid transparent;
+    border-right: 500px solid white;
+}
